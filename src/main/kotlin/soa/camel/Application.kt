@@ -27,7 +27,6 @@ const val INDEX_VIEW = "index"
 const val STRING_SIZE = 4
 const val HEADER_LIMIT = 5
 
-
 @Controller
 class SearchController(private val producerTemplate: ProducerTemplate) {
     @RequestMapping("/")
